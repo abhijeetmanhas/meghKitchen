@@ -58,16 +58,16 @@ class _FoodOrderPageState extends State<FoodOrderPage> {
                   height: 10,
                 ),
                 CartItem(
-                    productName: "Grilled Salmon",
-                    productPrice: "\$96.00",
+                    productName: "Veg Thali",
+                    productPrice: "Rs. 40.00",
                     productImage: "ic_popular_food_1",
                     productCartQuantity: "2"),
                 SizedBox(
                   height: 10,
                 ),
                 CartItem(
-                    productName: "Meat vegetable",
-                    productPrice: "\$65.08",
+                    productName: "Maggi",
+                    productPrice: "Rs. 20.00",
                     productImage: "ic_popular_food_4",
                     productCartQuantity: "5"),
                 SizedBox(
@@ -190,7 +190,7 @@ class TotalCalculationWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    "Grilled Salmon",
+                    "Veg Thali",
                     style: TextStyle(
                         fontSize: 18,
                         color: Color(0xFF3a3a3b),
@@ -198,7 +198,7 @@ class TotalCalculationWidget extends StatelessWidget {
                     textAlign: TextAlign.left,
                   ),
                   Text(
-                    "\$192",
+                    "Rs. 40",
                     style: TextStyle(
                         fontSize: 18,
                         color: Color(0xFF3a3a3b),
@@ -214,7 +214,7 @@ class TotalCalculationWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    "Meat vegetable",
+                    "Maggi",
                     style: TextStyle(
                         fontSize: 18,
                         color: Color(0xFF3a3a3b),
@@ -222,7 +222,7 @@ class TotalCalculationWidget extends StatelessWidget {
                     textAlign: TextAlign.left,
                   ),
                   Text(
-                    "\$102",
+                    "Rs. 20",
                     style: TextStyle(
                         fontSize: 18,
                         color: Color(0xFF3a3a3b),
@@ -246,7 +246,7 @@ class TotalCalculationWidget extends StatelessWidget {
                     textAlign: TextAlign.left,
                   ),
                   Text(
-                    "\$292",
+                    "\Rs. 60",
                     style: TextStyle(
                         fontSize: 18,
                         color: Color(0xFF3a3a3b),

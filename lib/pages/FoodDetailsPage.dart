@@ -66,7 +66,7 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
 
               FoodTitleWidget(
                   productName: "Grilled Salmon",
-                  productPrice: "\$96.00",
+                  productPrice: "Rs. 96.00",
                   productHost: "pizza hut"),
               SizedBox(
                 height: 15,

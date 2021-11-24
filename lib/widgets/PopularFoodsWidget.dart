@@ -214,7 +214,7 @@ class PopularFoodTiles extends StatelessWidget {
                           Container(
                             alignment: Alignment.bottomLeft,
                             padding: EdgeInsets.only(left: 5, top: 5, right: 5),
-                            child: Text('\$' + price,
+                            child: Text('Rs.' + price,
                                 style: TextStyle(
                                     color: Color(0xFF6e6e71),
                                     fontSize: 12,
@@ -280,28 +280,28 @@ class PopularFoodItems extends StatelessWidget {
             slug: ""),
         PopularFoodTiles(
             name: "Khas Thali",
-            imageUrl: "ic_popular_food_4",
+            imageUrl: "ic_popular_food_3",
             rating: "4.0",
             numberOfRating: "50",
             price: "60",
             slug: ""),
         PopularFoodTiles(
             name: "Maggi",
-            imageUrl: "ic_popular_food_5",
+            imageUrl: "ic_popular_food_4",
             rating: "4.00",
             numberOfRating: "100",
             price: "20",
             slug: ""),
         PopularFoodTiles(
             name: "Red meat,Salad",
-            imageUrl: "ic_popular_food_2",
+            imageUrl: "ic_popular_food_5",
             rating: "4.6",
             numberOfRating: "150",
             price: "12.00",
             slug: ""),
         PopularFoodTiles(
             name: "Alloo Parantha",
-            imageUrl: "ic_popular_food_5",
+            imageUrl: "ic_popular_food_6",
             rating: "4.00",
             numberOfRating: "100",
             price: "30",
